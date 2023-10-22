@@ -5,14 +5,26 @@ fn main(){
     let d:f64 = 2_850_000.00;
     let a:f64 = 250_000.00;
 
-    // now we find the sum of the sales 
+    // put the quantity
 
-    let s = t + m + h + d + a;
-    println!("The sum of the sales is {}", s);
+    let z:f64 = 2.0;
+    let y:f64 = 1.0;
+    let x:f64 = 3.0;
+    let w:f64 = 3.0;
+    let v:f64 = 1.0;
+
+    // to find total  sales
+
+    let ts = (t * z) + (m * y) + (h * x) + (d * w) + (a * v);
+        println!("Total sum of sales {}", ts);
+
+        // the total quantity
+        let tq = z + y + x + w + v;
+            println!("Total sum of the quantity is {}", tq);
 
     //now we find the average
 
-    let a = s / 5.0;
+    let a = ts / tq;
     println!("the avearage of the sales is {}", a);
 
 
